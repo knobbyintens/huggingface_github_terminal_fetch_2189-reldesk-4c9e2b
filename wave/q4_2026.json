@@ -1,0 +1,88 @@
+{
+  "wave_id": "Q4-2026",
+  "policy": "DRP-2.1",
+  "release_window": "2026-11-09",
+  "artifacts": [
+    {
+      "artifact_id": "atlas-instruct-v3",
+      "kind": "instruction dataset",
+      "provenance_sheet": "cards/atlas-instruct-v3/README.md",
+      "direct_sources": [
+        "tiiuae/falcon-refinedweb"
+      ],
+      "synthesis_models": [
+        "internlm/internlm2_5-7b-chat"
+      ],
+      "upstream_ancestry": [
+        "EleutherAI/pile"
+      ],
+      "status": "pending"
+    },
+    {
+      "artifact_id": "arc-reason-2026",
+      "kind": "synthetic reasoning corpus",
+      "provenance_sheet": "cards/arc-reason-2026/README.md",
+      "direct_sources": [],
+      "synthesis_models": [
+        "internlm/internlm2_5-7b-chat",
+        "Qwen/Qwen2.5-Coder-7B-Instruct"
+      ],
+      "upstream_ancestry": [],
+      "status": "pending"
+    },
+    {
+      "artifact_id": "quanta-sql-code",
+      "kind": "synthetic SQL corpus",
+      "provenance_sheet": "cards/quanta-sql-code/README.md",
+      "direct_sources": [],
+      "synthesis_models": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "upstream_ancestry": [],
+      "status": "pending"
+    },
+    {
+      "artifact_id": "verdant-math-mix",
+      "kind": "math instruction dataset",
+      "provenance_sheet": "cards/verdant-math-mix/README.md",
+      "direct_sources": [
+        "openai/gsm8k",
+        "cais/mmlu"
+      ],
+      "synthesis_models": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "upstream_ancestry": [
+        "monology/pile-uncopyrighted"
+      ],
+      "status": "pending"
+    },
+    {
+      "artifact_id": "harbor-web-edu",
+      "kind": "filtered educational corpus",
+      "provenance_sheet": "cards/harbor-web-edu/README.md",
+      "direct_sources": [
+        "HuggingFaceFW/fineweb-edu"
+      ],
+      "synthesis_models": [],
+      "upstream_ancestry": [
+        "monology/pile-uncopyrighted"
+      ],
+      "status": "pending"
+    },
+    {
+      "artifact_id": "ledger-doc-qa",
+      "kind": "document QA dataset",
+      "provenance_sheet": "cards/ledger-doc-qa/README.md",
+      "direct_sources": [
+        "HuggingFaceH4/ultrachat_200k",
+        "project-numina/NuminaMath-CoT"
+      ],
+      "synthesis_models": [
+        "Qwen/Qwen2.5-7B-Instruct"
+      ],
+      "upstream_ancestry": [],
+      "status": "pending"
+    }
+  ]
+}
